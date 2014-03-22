@@ -14,14 +14,97 @@
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 
 	<style>
+	body
+	{
+	overflow:auto;
+	}
 	table,th,td
 	{
 	border:1px solid #e9e9e9;
 	border-collapse:collapse;
+
+
 	}
 	th,td
 	{
 	padding:5px;
+	}
+	img.heatair
+	{
+	position:relative;
+	}
+	img.logo
+	{
+	padding:10px;
+	margin:0px;
+	}
+	img.button2
+	{
+	position:absolute; 
+	top:20px; 
+	right:200px;
+        }
+	img.disclamer
+	{
+	position:absolute;
+	top:20px;
+	right:250px;
+	}
+	img.button1
+	{
+	position:absolute;
+	top:20px;
+	right:500px;
+	}
+	ul
+	{
+	list-style-type:none;
+	margin:auto;
+	padding:25px;
+	width:100%;
+	background-color:#3f8252;
+	text-align:center;
+	font-color:#ffffff;
+	font-style:bold
+	}
+	li
+	{
+	text-align:center;
+	position:relative;
+	display:inline;
+	width:150px;
+	top:-15px;
+	left:200px;
+	}
+        p.smalltext
+	{
+	position:relative
+	top:10px;
+	font-size:15px;
+	}
+        div.heat
+	{
+	background-color:#eef1f5;
+	margin:10px;
+	padding:30px;
+	width:1000px;
+	}
+	div.cold
+	{
+	width:1000px;
+	}
+	div.about
+	{
+	background-color:#eef1f5;
+	margin:10px;
+	padding:30px;
+	width:1000px;
+	}
+	img.like
+	{
+	position:absolute;
+	right:485px;
+	top:657px;
 	}
 	</style>
 
@@ -32,36 +115,41 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-<a href="#" target=tyle="_blank"> <img src="img/logo.gif" alt="logo" align="top" align="middle"
+<a href="#" target=tyle="_blank"> <img src="img/logo.gif" class="logo" align="top" align="middle"
      align="right" ></a>
-<a href="#" target="_blank"><img src="img/bbb_logo.gif" alt="button1"
+<a href="#" target="_blank"><img src="img/bbb_logo.gif" class="button1"
 style="text-align:center;" align="top" align="middle"
      align="left"></a>
-<a><img src="img/Available 7 Days.gif" alt="disclamer" align="top" align="middle"
+<a><img src="img/Available 7 Days.gif" class="disclamer" align="top" align="middle"
      align="left" >
-<a href="#" target="_blank"><img src="img/F symbal 1.gif" alt="button2" align="top" align="middle"
+<a href="#" target="_blank"><img src="img/F symbal 1.gif" class="button2" align="top" align="middle"
      align="left" {position:relative; top=0; right:0:}></a>
-    <div id="header" style="background-color:#3f8252; height:50px; ">
-        
-  <li><div class:"first"; style=text-allign:center;float:left;><a href="#">SERVICES </a><br></div>
-    <div style=text-allign:center;float:left;><a href="#">COOLING </a><br></div>
-    <div style=text-allign:center;float:left;><a href="#">HEATING</a><br></div>
-    <div style=text-allign:center;float:left;><a href="#">ABOUT </a><br></div>
-    <div style=text-allign:center;float:left;><a href="#">CONTACT </a><br></div></div></li>
     
-<div id="call" style="clear:both;text-align:center; color:#3f8252;";> 
-<h1>Call us now for an estimate at 1-800-555-5555</h1><p font-size:small>
+  <ul style="background-color:#3f8252;">
+  <li class="first"; style=float:left;><a href="#">
+    SERVICES</a><br></li>
+    <li style="float:left;color:#fffff;"><a href="#">COOLING </a><br></li>
+   <a href="#"><li style=float:left;>HEATING <br></li></a>
+    <li style=float:left;><a href="#">ABOUT </a><br></li>
+    <li style=float:left;><a href="#">CONTACT </a><br></li></ul>
+
+<br>
+<div class="call" style="clear:both;text-align:center; color:#3f8252;"> 
+<h1>Call us now for an estimate at 1-800-555-5555</h1><p class="smalltext">
 we're dedicated to making your family or business is as comfortable as
 possible.</p><p>SERVING CLIFTON
 AND ALL OF NORTHERN NEW jERSEY<br><br>
 <video width="600" height="275" controls>
-  <source src="movie.mp4" type="video/mp4">
-    <source src="movie.ogg" type="video/ogg">
-      Your browser does not support the video tag.
-      </video></div>
+<source src="movie.mp4" type="video/mp4">
+<source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video></div>
 <br>
 <br>
-
+<img src="img/Likevertim.gif">
+<a href="https://www.facebook.com/" target=tyle=""https://www.facebook.com/""><img src="img/likee this.gif" class="like">
+</a>
+<br>
 <div style=float:left;><strong>Welcome to Empire Heating & Cooling:</strong><br>
 Whether you need to repair, replace, upgrade or even add a new system, our<br>
 products are designed to make you more comfortable. We have the knowledge<br>
@@ -82,7 +170,7 @@ and control of your home or businesses’ indoor environment.<br></div>
   <th style="color:#ffffff">Residential</th>
   <th style="color:#ffffff">Comercial</th>		
   <th style="color:#ffffff">Industrial</th></h1>
-  <img src="img/heating and air.gif" style=float:left>
+  <img src="img/heating and air.gif" class="heatair" style=float:left>
 
 </tr>
 <tr style="background-color:#f7f7f7">
@@ -133,14 +221,14 @@ and control of your home or businesses’ indoor environment.<br></div>
 </tr>
 <tr style="background-color:#f7f7f7">
    <td style="color:#919191"></td>
-   <td style="color:#919191"> Unitary Heates<td>
-   <td style="color:#919191"></td>
+   <td style="color:#919191">Infrared Radiant Systems<td>
+   
 </tr>
 
 </table>
 
 
-<div id="heat" style="text-align:center;"><h2 style= "color:#FF0000">Heating</h2>
+<div class="heat" style="text-align:center;"><h2 style= "color:#FF0000">Heating</h2>
 Our goal is to keep you warm and comfortable through the winter months. We know which products and systems will work best for you. Our recommendations will always keep your requirements and budget in mind. We’ll respond to your requests and act quickly when you call. Nothing is more important than your peace of mind when the weather is cold.
 <br>
 <img src="img/men_at_work.gif" alt="heating1">
@@ -148,7 +236,7 @@ Our goal is to keep you warm and comfortable through the winter months. We know 
 <img src="img/men_work3.gif" alt="heating3"> 
 </div>
 
-<div id="cold" style="text-align:center;background-color:dde0e1"><h2 style= "color:#0000FF">Cooling</h2>
+<div class="cold" style="text-align:center;background-color:dde0e1"><h2 style= "color:#0000FF">Cooling</h2>
 
 Central air conditioning helps keep your environment cool and reduces humidity levels. As the central air conditioning system draws air out
 of various rooms in your house or business through return air ducts, the air is pulled through an air filter, which removed airborne particles
@@ -159,7 +247,7 @@ such as dust and lint. The filtered air is then routed to air supply ductwork th
 <img src="img/cooling3.gif">
 </div>
 
-<div id="about" style="text-align:center;"><h2>About Us</h2>
+<div class="about" style="text-align:center;"><h2>About Us</h2>
 
 Our goal is to keep you warm and comfortable through the winter months. We know which products and systems will work best for you.
 Our recommendations will always keep your requirements and budget in mind. We’ll respond to your requests and act quickly when you call.
@@ -187,5 +275,4 @@ Nothing is more important than your peace of mind when the weather is cold.
         </script>
     </body>
 </html>
-
 
