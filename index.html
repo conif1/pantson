@@ -58,8 +58,12 @@
 	}
 	ul
 	{
+	position:absolute;
+	visibility:visible;
 	list-style-type:none;
 	margin:auto;
+	font-weight:bold;
+	font-style:normal;
 	padding:25px;
 	width:100%;
 	background-color:#3f8252;
@@ -71,10 +75,19 @@
 	{
 	text-align:center;
 	position:relative;
+	visibility:inherit;
+	overflow:hidden;
+	cursor:default;
+	color:#ffffff;
 	display:inline;
 	width:150px;
-	top:-15px;
-	left:200px;
+	top:0px;
+	left:250px;
+	}
+	div.list
+	{
+	height:100%
+	width:150px
 	}
         p.smalltext
 	{
@@ -126,15 +139,14 @@ style="text-align:center;" align="top" align="middle"
      align="left" {position:relative; top=0; right:0:}></a>
     
   <ul style="background-color:#3f8252;">
-  <li class="first"; style=float:left;><a href="#">
-    SERVICES</a><br></li>
-    <li style="float:left;color:#fffff;"><a href="#">COOLING </a><br></li>
-   <a href="#"><li style=float:left;>HEATING <br></li></a>
-    <li style=float:left;><a href="#">ABOUT </a><br></li>
-    <li style=float:left;><a href="#">CONTACT </a><br></li></ul>
+    <a href="#" target=_"blank"> <div class="list"><li class="first"; style=float:left;>SERVICES<br></li></div></a>
+    <a href="#" target=_"blank"><div class="list"><li style=float:left;>COOLING<br></li></div></a>
+    <a href="#" target=_"blank"><div class="list"><li style=float:left;>HEATING<br></li></div></a>
+    <a href="#" target=_"blank"> <div class="list"><li style=float:left;>ABOUT<br></li></div></a>
+    <a href="#" target=_"blank"> <div class="list"><li style=float:left;>CONTACT <br></li></ul></div></a>
 
 <br>
-<div class="call" style="clear:both;text-align:center; color:#3f8252;"> 
+<div class="call" style="clear:both;text-align:center;color:#3f8252;margin:90px;"> 
 <h1>Call us now for an estimate at 1-800-555-5555</h1><p class="smalltext">
 we're dedicated to making your family or business is as comfortable as
 possible.</p><p>SERVING CLIFTON
@@ -164,7 +176,7 @@ and control of your home or businesses’ indoor environment.<br></div>
 • Exceptional customer service from start to finish<br>
 • Service and preventative maintenance contracts<br></div>
 
-<table style="width:800px; height:486px;">
+<table styile="width:800px; height:486px;">
 <tr style="background-color:#7f8c8d"> 
 <h1> 
   <th style="color:#ffffff">Residential</th>
